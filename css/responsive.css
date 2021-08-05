@@ -1,0 +1,359 @@
+/* ===========================
+   divided into 2 column css  (Tab view) 
+   =========================== */
+
+@media only screen and (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+
+  .player__container,
+  .best__player__container,
+  .best__coach__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ===========================
+    divided into 1 column css  (Mobile view) 
+   =========================== */
+
+@media only screen and (max-width: 689px) {
+  .container {
+    width: 100%;
+  }
+
+  #banner,
+  .player__container,
+  .highlights__container,
+  .best__player__container,
+  .best__coach__container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+  }
+}
+
+/* ===========================
+   navbar responsive css start
+   =========================== */
+
+@media only screen and (max-width: 992px) {
+  .menu__button {
+    display: block;
+  }
+
+  #click:checked ~ .menu__button i::before {
+    content: "\f00d";
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    background-image: radial-gradient(
+        circle at 17% 77%,
+        rgba(17, 17, 17, 0.04) 0%,
+        rgba(17, 17, 17, 0.04) 50%,
+        rgba(197, 197, 197, 0.04) 50%,
+        rgba(197, 197, 197, 0.04) 100%
+      ),
+      radial-gradient(
+        circle at 26% 17%,
+        rgba(64, 64, 64, 0.04) 0%,
+        rgba(64, 64, 64, 0.04) 50%,
+        rgba(244, 244, 244, 0.04) 50%,
+        rgba(244, 244, 244, 0.04) 100%
+      ),
+      radial-gradient(
+        circle at 44% 60%,
+        rgba(177, 177, 177, 0.04) 0%,
+        rgba(177, 177, 177, 0.04) 50%,
+        rgba(187, 187, 187, 0.04) 50%,
+        rgba(187, 187, 187, 0.04) 100%
+      ),
+      linear-gradient(19deg, rgb(28, 117, 250), rgb(34, 2, 159));
+  }
+
+  .nav__items {
+    position: fixed;
+    top: 80px;
+    display: block;
+    left: -40%;
+    height: 100vh;
+    width: 40%;
+    padding-left: 2em;
+    transition: all 0.6s ease-in-out;
+    background-image: radial-gradient(
+        circle at 17% 77%,
+        rgba(17, 17, 17, 0.04) 0%,
+        rgba(17, 17, 17, 0.04) 50%,
+        rgba(197, 197, 197, 0.04) 50%,
+        rgba(197, 197, 197, 0.04) 100%
+      ),
+      radial-gradient(
+        circle at 26% 17%,
+        rgba(64, 64, 64, 0.04) 0%,
+        rgba(64, 64, 64, 0.04) 50%,
+        rgba(244, 244, 244, 0.04) 50%,
+        rgba(244, 244, 244, 0.04) 100%
+      ),
+      radial-gradient(
+        circle at 44% 60%,
+        rgba(177, 177, 177, 0.04) 0%,
+        rgba(177, 177, 177, 0.04) 50%,
+        rgba(187, 187, 187, 0.04) 50%,
+        rgba(187, 187, 187, 0.04) 100%
+      ),
+      linear-gradient(19deg, rgb(28, 117, 250), rgb(34, 2, 159));
+  }
+
+  #click:checked ~ .nav__items {
+    left: 0;
+  }
+
+  .nav__items li {
+    margin: 20px 0;
+  }
+
+  .nav__items li a {
+    color: #fff;
+  }
+
+  #banner {
+    padding-top: 120px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .nav__items {
+    padding-left: 1.5em;
+  }
+
+  nav {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .nav__items {
+    padding-left: 1em;
+  }
+}
+
+/* ===========================
+    navbar responsive css end
+   =========================== */
+
+/* ===========================
+   iframe responsive css  start 
+   =========================== */
+
+@media only screen and (max-width: 800px) {
+  .match__video {
+    width: 500px;
+    margin: 2.5em auto 0 auto;
+  }
+
+  .match__video iframe {
+    width: 470px;
+    height: 300px;
+  }
+
+  #latest__match h4 {
+    font-size: 1.3em;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width: 596px) {
+  .match__video {
+    width: 350px;
+    margin: 2em auto 0 auto;
+  }
+
+  .match__video iframe {
+    width: 330px;
+    height: 200px;
+  }
+
+  #latest__match h4 {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .match__video {
+    width: 280px;
+  }
+
+  .match__video iframe {
+    width: 260px;
+    height: 200px;
+  }
+
+  #latest__match h4 {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (max-width: 332px) {
+  .match__video {
+    width: 250px;
+  }
+
+  .match__video iframe {
+    width: 230px;
+    height: 150px;
+  }
+
+  #latest__match h4 {
+    font-size: 0.7em;
+  }
+}
+
+/* ===========================
+    iframe responsive css end 
+   =========================== */
+
+/* ======================================================
+   website contents & website images responsive css start
+   ======================================================= */
+
+@media only screen and (max-width: 1259px) {
+  .banner__content h1 {
+    width: 90%;
+  }
+
+  .navbar__items li a {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .banner__content h1 {
+    width: 100%;
+    font-size: 3em;
+  }
+
+  .highlights__content h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 854px) {
+  .banner__content h1 {
+    font-size: 2.5em;
+  }
+
+  .highlights__content h1 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 762px) {
+  .banner__content h1 {
+    width: 70%;
+  }
+
+  .banner__image img {
+    width: 90%;
+  }
+
+  .best__player__container img,
+  .best__coach__container img {
+    height: 300px;
+  }
+
+  #best__players h1,
+  #latest__match h1,
+  #best__coach h1 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 718px) {
+  .banner__content h1 {
+    font-size: 2em;
+  }
+
+  .highlights__content h1 {
+    font-size: 1.5em;
+  }
+
+  .highlights__content p {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #best__players h1,
+  #latest__match h1,
+  #best__coach h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  #best__players h1,
+  #latest__match h1,
+  #best__coach h1 {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 339px) {
+  #best__players h1,
+  #latest__match h1,
+  #best__coach h1 {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  .banner__content h1 {
+    width: 90%;
+    font-size: 1.5em;
+  }
+}
+
+/* ====================================================
+   website contents & website images responsive css end
+   ==================================================== */
+
+/* ===========================
+   footer responsive css start
+   =========================== */
+
+@media only screen and (max-width: 678px) {
+  .copyright p {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  .copyright p {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  .banner__content h1 {
+    width: 85%;
+  }
+
+  .social__links a {
+    padding: 6px 9px;
+    margin-right: 10px;
+    font-size: 0.8em;
+  }
+
+  .copyright p {
+    font-size: 0.7em;
+  }
+}
+
+/* ===========================
+    footer responsive css end 
+   =========================== */
