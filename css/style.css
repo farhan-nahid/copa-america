@@ -763,7 +763,7 @@ footer {
 .footer__container {
   width: 1164px;
   margin: 0 auto;
-  padding: 70px 10% 20px 10%;
+  padding: 50px 0 20px 0;
 }
 
 .footer__logo {
