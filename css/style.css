@@ -117,10 +117,10 @@ a {
 }
 
 .card__content h4 {
-  font-size: 1.5em;
+  font-size: 1.6em;
   margin: 0.4em 0;
   color: var(--main-color);
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .card__content p {
@@ -746,7 +746,7 @@ footer {
 }
 
 .social__links a:nth-child(5) i:hover {
-  color: #eaca45;
+  color: #494946;
   transform: rotate(360deg) scale(1.5);
   font-weight: 700;
 }
