@@ -17,15 +17,15 @@
   color: #ffffffdb;
 }
 
-/* ========================== 
-  Using CSS custom properties (variables)
-   ========================== */
+/* ========================================= 
+    Using CSS custom properties (variables)
+   ========================================= */
 
 :root {
   --main-color: #e02c6d;
   --white-color: #fff;
-  --text-color: #808080;
-  --dark-color: #54566f;
+  --text-color: #6c6c6c;
+  --dark-color: #0a0826;
   --bg-color: #e7e7e8;
   --shadow: 2px 5px 30px var(--text-color);
 }
@@ -132,6 +132,8 @@ a {
   font-size: 2.5em;
   text-align: center;
   color: var(--dark-color);
+  font-weight: 700;
+  line-height: 60px;
 }
 
 hr {
@@ -237,9 +239,9 @@ nav {
      navbar css end
    ==================== */
 
-/* ====================
+/* ========================
    banner section css start
-   ==================== */
+   ======================== */
 
 #banner {
   display: grid;
@@ -250,6 +252,7 @@ nav {
 .banner__content {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .banner__content h1 {
@@ -289,13 +292,13 @@ nav {
   }
 }
 
-/* ====================
- banner & header section css end
-   ==================== */
+/* ================================
+    banner & header section css end
+   ================================= */
 
-/* ====================
+/* =========================
    players section css start
-   ==================== */
+   ========================= */
 
 #players {
   background-image: linear-gradient(
@@ -336,13 +339,13 @@ nav {
   gap: 30px 25px;
 }
 
-/* ====================
+/* ========================
    players section css end
-   ==================== */
+   ======================== */
 
-/* ====================
+/* ================================
    All Highlights section css start
-   ==================== */
+   ================================= */
 
 #all__highlights {
   background-image: linear-gradient(
@@ -398,7 +401,8 @@ nav {
 .highlights__content h1 {
   font-size: 3em;
   color: var(--dark-color);
-  font-weight: 600;
+  font-weight: 700;
+  line-height: 60px;
   width: 90%;
   margin: 0;
 }
@@ -422,13 +426,13 @@ nav {
   border-radius: 10px;
 }
 
-/* ====================
+/* ==============================
    All Highlights section css end
-   ==================== */
+   ============================== */
 
-/* ====================
+/* =============================
    best player css section start
-   ==================== */
+   ============================== */
 
 #best__players {
   background-image: linear-gradient(
@@ -502,13 +506,13 @@ nav {
   object-fit: cover;
 }
 
-/* ====================
+/* ============================
    best player section css end
-   ==================== */
+   ============================ */
 
-/* ====================
+/* ==============================
    latest match section css start
-   ==================== */
+   =============================== */
 
 #latest__match {
   background-image: radial-gradient(
@@ -590,13 +594,13 @@ nav {
   text-align: center;
 }
 
-/* ====================
+/* =============================
    latest match section css end
-   ==================== */
+   ============================= */
 
-/* ====================
+/* ============================
    best coach section css start
-   ==================== */
+   ============================ */
 
 #best__coach {
   background-image: linear-gradient(
@@ -642,13 +646,13 @@ nav {
   margin-top: 70px;
 }
 
-/* ====================
+/* ===========================
    best coach section css end
-   ==================== */
+   =========================== */
 
-/* ====================
+/* ============================
    top 5 team section css start
-   ==================== */
+   ============================ */
 
 #table {
   background-image: linear-gradient(
@@ -712,9 +716,9 @@ nav {
   font-size: 1.3em;
 }
 
-/* ====================
+/* ==========================
    top 5 team section css end
-   ==================== */
+   =========================== */
 
 /* ====================
      footer css start
