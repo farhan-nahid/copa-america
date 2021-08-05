@@ -132,7 +132,7 @@ hr {
   width: 30vh;
   height: 7px;
   background-image: linear-gradient(30deg, #5050da, #9ad3ea);
-  margin: 0.1em auto;
+  margin: 0 auto;
   border-radius: 38px;
 }
 
@@ -179,7 +179,9 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  padding: 15px 7%;
+  padding: 15px 0;
+  width: 1164px;
+  margin: 0 auto;
   font-size: 18px;
 }
 
@@ -326,7 +328,6 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px 25px;
-  padding-top: 2.5em;
 }
 
 /* ====================
@@ -487,6 +488,10 @@ nav {
   color: var(--dark-color);
 }
 
+#best__players .best__player__container {
+  margin-top: 70px;
+}
+
 .best__player__container h5 {
   font-size: 1.1em;
   color: var(--dark-color);
@@ -568,7 +573,7 @@ nav {
   background-color: var(--white-color);
   border-radius: 20px;
   width: 750px;
-  margin: 2.5em auto 0 auto;
+  margin: 70px auto 0 auto;
   box-shadow: var(--shadow);
 }
 
@@ -633,6 +638,10 @@ nav {
       transparent 100%
     ),
     linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+#best__coach .best__coach__container {
+  margin-top: 70px;
 }
 
 /* ====================

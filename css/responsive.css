@@ -1,9 +1,22 @@
 /* ===========================
+           laptop view
+   =========================== */
+
+@media only screen and (max-width: 1229px) {
+  .container,
+  nav {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* ===========================
    divided into 2 column css  (Tab view) 
    =========================== */
 
 @media only screen and (max-width: 991px) {
-  .container {
+  .container,
+  nav {
     width: 90%;
     margin: auto;
   }
@@ -20,7 +33,8 @@
    =========================== */
 
 @media only screen and (max-width: 689px) {
-  .container {
+  .container,
+  nav {
     width: 90%;
     margin: auto;
   }
